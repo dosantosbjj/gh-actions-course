@@ -1,0 +1,16 @@
+name: First Workflow
+setup:
+  requestTimeout: 5000
+  responseTimeout: 1000
+  colors:
+    - red
+    - green
+    - blue
+
+  colors: 
+    - name: red
+      hex: 22dd00
+      label:
+        - primary
+    - name: green
+      hex: 33dd00

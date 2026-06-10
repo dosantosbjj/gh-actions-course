@@ -1,0 +1,13 @@
+name: Workflow Job Step #Repository level/ one or more jobs/ what triggers the workflow
+on: push
+
+#Workflow level/ one or more steps/ run in parallel by default
+jobs: 
+  my-first-job: 
+    runs-on: ubuntu-latest 
+    steps: #Job level/ defines the action or script to be executed/ run sequencially by default
+      - run: echo "Hello world"
+  my-second-job:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Bye world"
