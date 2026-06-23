@@ -2,7 +2,7 @@ name: 05 - Event filters/activity types
 
 on:
     pull_request:
-        types: [opened, synchronize]
+        types: [closed]
         branches: [main]
 
 jobs: 
